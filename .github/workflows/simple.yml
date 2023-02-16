@@ -12,3 +12,7 @@ jobs:
         run: |
           node -v
           npm -v
+          uptime
+          hostname
+          top
+          free -g
