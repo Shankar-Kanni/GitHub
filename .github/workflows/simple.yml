@@ -14,4 +14,4 @@ jobs:
           npm -v
           uptime
           hostname
-          free -g
+          free -h
