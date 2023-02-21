@@ -15,3 +15,12 @@ jobs:
           uptime
           hostname
           free -h
+  run-container-commands:
+    runs-on: ubuntu-latest
+    container:
+      image: node:latest
+    steps:
+      - name: Log Node node
+        run: |
+          node -v
+          cat /etc/os-release
